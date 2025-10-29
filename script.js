@@ -16,7 +16,7 @@ const projects = [
     {
         title: "Lixos Eletrônicos",
         description: "Projeto de conscientização sobre o descarte correto de lixos eletrônicos, incluindo pontos de coleta e informações sobre reciclagem.",
-        link: "https://Halls499.github.io/retech",
+        link: "https://Halls499.github.io/Retech-",
         tags: ["Conscientização", "Tecnologia"],
         team: "Grupo do Mauricio"
     },
@@ -86,5 +86,6 @@ const renderProjects = () => {
 };
 
 document.addEventListener("DOMContentLoaded", renderProjects);
+
 
 
