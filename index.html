@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos EACNT - 2DS Etec de Peruíbe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero" id="topo">
+        <div class="hero__content">
+            <span class="hero__badge">Estudos Avançados em Ciências da Natureza e suas Tecnologias</span>
+            <h1>Projetos da turma 2DS · Etec de Peruíbe</h1>
+            <p>Explore as pesquisas e experimentos desenvolvidos ao longo do ano pelos estudantes do 2º ano do curso de Desenvolvimento de Sistemas. Ciência, tecnologia e criatividade trabalhando lado a lado.</p>
+            <a class="hero__cta" href="#projetos">Ver projetos</a>
+        </div>
+        <div class="hero__teachers">
+            <h2>Agradecimentos Especiais</h2>
+            <p>Com gratidão às professoras <strong>Elza Stauber</strong> e <strong>Andreia</strong>, por todo o apoio, inspiração e dedicação em cada etapa desta jornada científica.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="stats" aria-label="Indicadores do projeto">
+            <div class="stat">
+                <span id="stat-total" class="stat__value">0</span>
+                <span class="stat__label">Projetos Documentados</span>
+            </div>
+            <div class="stat">
+                <span id="stat-tags" class="stat__value">0</span>
+                <span class="stat__label">Temáticas Exploradas</span>
+            </div>
+            <div class="stat">
+                <span class="stat__value">2</span>
+                <span class="stat__label">Professoras Mentoras</span>
+            </div>
+        </section>
+
+        <section id="projetos" class="projects" aria-labelledby="titulo-projetos">
+            <div class="section-header">
+                <h2 id="titulo-projetos">Projetos em Destaque</h2>
+                <p>Uma coleção dos trabalhos que mostram a conexão entre a ciência e a tecnologia no cotidiano.</p>
+            </div>
+            <div id="lista-projetos" class="projects__grid" role="list"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <p>Turma 2DS · Etec de Peruíbe · 2025</p>
+            <a href="#topo">Voltar ao topo</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
