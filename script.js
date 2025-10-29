@@ -16,7 +16,7 @@ const projects = [
     {
         title: "Lixos Eletrônicos",
         description: "Projeto de conscientização sobre o descarte correto de lixos eletrônicos, incluindo pontos de coleta e informações sobre reciclagem.",
-        link: "https://example.com/lixos-eletronicos",
+        link: "https://Halls499.github.io/retech",
         tags: ["IoT", "Alimentação"],
         team: "Grupo do Mauricio"
     },
@@ -24,8 +24,15 @@ const projects = [
         title: "Horta na Escola",
         description: "Projeto que implementa hortas comunitárias em escolas públicas, incentivando a educação ambiental e a alimentação saudável entre os estudantes.",
         link: "https://example.com/horta-na-escola",
-        tags: ["Educação", "AR/VR"],
+        tags: ["Educação", "Alimentação"],
         team: "Grupo do Gabriel"
+    },
+    {
+        title: "Reciclagem na Praia",
+        description: "Por meio de coletas na orla da praia, conseguir limpar os resíduos recicláveis e reutilizar.",
+        link: "https://example.com/horta-na-escola",
+        tags: ["Conscientização", "Reciclagem"],
+        team: "Grupo do Eduardo"
     }
 ];
 
@@ -79,3 +86,4 @@ const renderProjects = () => {
 };
 
 document.addEventListener("DOMContentLoaded", renderProjects);
+
